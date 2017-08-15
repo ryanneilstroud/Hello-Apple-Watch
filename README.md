@@ -1,4 +1,4 @@
-# Hello Apple Watch
+# Hello, Apple Watch
 
 A watchOS 3 app.
 
