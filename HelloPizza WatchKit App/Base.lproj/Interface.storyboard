@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="12029"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="HelloPizza_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="left" text="Hello, Watch" id="RIQ-ai-eMW">
+                            <fontDescription key="font" type="system" pointSize="25"/>
+                        </label>
+                        <button width="1" alignment="left" title="Pizza" id="c6y-ce-3jj">
+                            <color key="backgroundColor" red="1" green="0.19959689872703767" blue="0.18362588859513918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="clickedPizza" destination="AgC-eL-Hgc" id="sKx-e5-nrx"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Ice Cream" id="t1A-Bq-Qrx">
+                            <color key="backgroundColor" red="1" green="0.40335717309018271" blue="0.89409976835316429" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="clickedIceCream" destination="AgC-eL-Hgc" id="Gve-cR-FED"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="label" destination="RIQ-ai-eMW" id="X0k-gf-1Ey"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
