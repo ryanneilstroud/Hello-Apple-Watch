@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62156AF81F4353AC009C7DDA /* AddNewItemInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62156AF71F4353AC009C7DDA /* AddNewItemInterfaceController.swift */; };
 		625955011F432E44004D4561 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625955001F432E44004D4561 /* AppDelegate.swift */; };
 		625955031F432E44004D4561 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625955021F432E44004D4561 /* ViewController.swift */; };
 		625955061F432E44004D4561 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 625955041F432E44004D4561 /* Main.storyboard */; };
@@ -64,6 +65,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		62156AF71F4353AC009C7DDA /* AddNewItemInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewItemInterfaceController.swift; sourceTree = "<group>"; };
 		625954FD1F432E44004D4561 /* HelloPizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloPizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		625955001F432E44004D4561 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		625955021F432E44004D4561 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				625955231F432E44004D4561 /* InterfaceController.swift */,
+				62156AF71F4353AC009C7DDA /* AddNewItemInterfaceController.swift */,
 				625955251F432E44004D4561 /* ExtensionDelegate.swift */,
 				625955271F432E44004D4561 /* Assets.xcassets */,
 				625955291F432E44004D4561 /* Info.plist */,
@@ -298,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62156AF81F4353AC009C7DDA /* AddNewItemInterfaceController.swift in Sources */,
 				625955261F432E44004D4561 /* ExtensionDelegate.swift in Sources */,
 				625955241F432E44004D4561 /* InterfaceController.swift in Sources */,
 			);
@@ -550,6 +554,7 @@
 				6259552E1F432E44004D4561 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		625955301F432E44004D4561 /* Build configuration list for PBXNativeTarget "HelloPizza WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +563,7 @@
 				625955321F432E44004D4561 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		625955341F432E44004D4561 /* Build configuration list for PBXNativeTarget "HelloPizza" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +572,7 @@
 				625955361F432E44004D4561 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

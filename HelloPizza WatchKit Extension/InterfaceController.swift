@@ -20,5 +20,4 @@ class InterfaceController: WKInterfaceController {
     @IBAction func clickedIceCream() {
         label.setText("Hello, 🍦")
     }
-
 }

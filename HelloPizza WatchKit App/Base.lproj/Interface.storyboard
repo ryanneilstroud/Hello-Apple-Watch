@@ -14,7 +14,7 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="HelloPizza_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label alignment="left" text="Hello, Watch" id="RIQ-ai-eMW">
+                        <label alignment="left" text="Hello, Watch" numberOfLines="0" id="RIQ-ai-eMW">
                             <fontDescription key="font" type="system" pointSize="25"/>
                         </label>
                         <button width="1" alignment="left" title="Pizza" id="c6y-ce-3jj">
@@ -29,12 +29,41 @@
                                 <action selector="clickedIceCream" destination="AgC-eL-Hgc" id="Gve-cR-FED"/>
                             </connections>
                         </button>
+                        <button width="1" alignment="left" title="+" id="cn3-xy-0Vk">
+                            <fontDescription key="font" type="system" pointSize="25"/>
+                            <connections>
+                                <segue destination="mq5-RO-OD6" kind="push" id="l4O-iH-Yjh"/>
+                            </connections>
+                        </button>
                     </items>
                     <connections>
                         <outlet property="label" destination="RIQ-ai-eMW" id="X0k-gf-1Ey"/>
                     </connections>
                 </controller>
             </objects>
+        </scene>
+        <!--Add New Item Interface Controller-->
+        <scene sceneID="R6U-CC-2Ht">
+            <objects>
+                <controller id="mq5-RO-OD6" customClass="AddNewItemInterfaceController" customModule="HelloPizza_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Would you like to add a new food item?" numberOfLines="0" id="ELQ-pQ-20v"/>
+                        <button width="1" alignment="left" title="Sure!" id="pie-4O-ouh">
+                            <color key="titleColor" red="0.40335925159444086" green="1" blue="0.15868826042827866" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="addItem" destination="mq5-RO-OD6" id="2TM-ZC-4k1"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="No Thanks." id="Nui-Ta-3Xw">
+                            <color key="titleColor" red="1" green="0.0036307680518194996" blue="0.12915031277992195" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="goBack" destination="mq5-RO-OD6" id="Vkk-UY-aRt"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="345" y="65"/>
         </scene>
     </scenes>
 </document>
